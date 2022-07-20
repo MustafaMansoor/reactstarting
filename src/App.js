@@ -1,10 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
-
-
+//import './App.css';
+import './hello';
+import Hello from './hello';
 // Main code
-function App(props) {
-    return <div > meeeeeee { props.name }
-    and meeeee is { props.age + 1 } < /div>
-}
+const App = ({ name, age }) => < div > meeeeeee { name }
+and meeeee is { age + 5 } <
+br / >
+    <
+    Hello fName = { name }
+/> <
+/div>
 export default App;
