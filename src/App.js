@@ -3,7 +3,8 @@ import './App.css';
 
 
 // Main code
-function App() {
-    return <div > meeeeeee < /div>
+function App(props) {
+    return <div > meeeeeee { props.name }
+    and meeeee is { props.age + 1 } < /div>
 }
 export default App;
